@@ -1,0 +1,1 @@
+hapus jika folder sudah terisi file
