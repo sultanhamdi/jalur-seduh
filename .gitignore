@@ -1,0 +1,27 @@
+# file sistem bawaan macos
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# file cache dan sistem bawaan windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.lnk
+
+# konfigurasi text editor (vs code, sublime, dsb)
+.vscode/
+.idea/
+.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# file log dan direktori sementara
+*.log
+temp/
+tmp/
