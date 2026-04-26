@@ -4,30 +4,52 @@
 <head>
   <meta charset="UTF-8">
   <title>Jalur Seduh: Toko online khusus produk kopi dan perlengkapan seduh.</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <div class="menu">
+    <a href="index.html"><img src="img/logo.jpeg" alt="Logo" class="nav-icon-img"></a>
+
+    <div class="search-bar">
+      <select id="filter-kategori">
+        <option>Semua</option>
+        <option>Biji Kopi</option>
+        <option>Instrumen Seduh</option>
+        <option>Perawatan</option>
+        <option>Konsumsi</option>
+        <option>Literasi</option>
+        <option>Atribut</option>
+      </select>
+      <input type="text" id="input-cari" placeholder="Kopi Luwak Aldi Taher">
+      <button type="button" id="btn-cari"><img src="img/search.png" alt="Search" class="nav-icon-img"></button>
+    </div>
+
+    <a href="troli.html" class="cart"><img src="img/cart.png" alt="Cart" class="nav-icon-img"> <span
+        id="cart-count">0</span></a>
+  </div>
 
   <h1>Jalur Seduh</h1>
   <p>Toko online khusus produk kopi dan perlengkapan seduh.</p>
   <hr>
 
-  <div class="menu">
-    <a href="#beranda">Beranda</a> |
-    <a href="#biji-kopi">Biji Kopi</a> |
-    <a href="#instrumen-seduh">Instrumen Seduh</a> |
-    <a href="#perawatan">Perawatan</a> |
-    <a href="#konsumsi">Konsumsi</a> |
-    <a href="#literasi">Literasi</a> |
-    <a href="#atribut">Atribut</a>
-  </div>
-
-  <hr>
-
   <div class="content" id="beranda">
-    <h2>Katalog Produk</h2>
-    <div id="katalog-produk">
+    <div id="hasil-pencarian-header"
+      style="display: none; border-bottom: 2px solid #1a0303; margin-bottom: 30px; padding-bottom: 10px; overflow: hidden;">
+      <h3 style="margin: 0; font-family: 'Special Elite'; float: left;">Hasil Arsip:</h3>
+      <select id="sort-produk" class="kontrol-pilihan" onchange="muatKatalog()" style="float: right;">
+        <option value="default">Urutan: Terbaru</option>
+        <option value="harga-asc">Harga: Terendah</option>
+        <option value="harga-desc">Harga: Tertinggi</option>
+        <option value="nama-asc">Nama: A-Z</option>
+      </select>
+      <div style="clear: both;"></div>
     </div>
+
+    <h2 id="judul-katalog-utama">Katalog Produk</h2>
+
+    <div id="katalog-produk"></div>
   </div>
 
   <script src="data/data.js"></script>
@@ -35,7 +57,26 @@
 
   <div class="footer">
     <hr>
-    <p>&copy;2026 JalurSeduh.com - Semua produk berkaitan dengan kopi.</p>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Jalur Seduh</h4>
+        <a href="#">Tentang Jalur Seduh</a>
+        <a href="#">Hak Kekayaan Intelektual</a>
+      </div>
+      <div class="footer-column">
+        <h4>Bantuan</h4>
+        <a href="#">Customer Service</a>
+        <a href="#">Syarat dan Ketentuan</a>
+        <a href="#">Kebijakan Privasi</a>
+      </div>
+      <div class="footer-column">
+        <h4>Ikuti Kami</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+    <p class="copyright">&copy;2026 JalurSeduh.com - Semua produk berkaitan dengan kopi.</p>
   </div>
 
 </body>

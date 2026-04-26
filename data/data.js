@@ -10,7 +10,8 @@
         "harga": 135000,
         "stok": 15,
         "urlGambar": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&q=80",
-        "deskripsi": "Proses: Wash. Notes: Earthy, Dark Chocolate."
+        "deskripsi": "Proses: Wash. Notes: Earthy, Dark Chocolate.",
+        "varietas": "Arabica"
     },
     {
         "id": "KOP-002",
@@ -23,7 +24,8 @@
         "harga": 125000,
         "stok": 20,
         "urlGambar": "https://images.unsplash.com/photo-1580915411954-282cb1b0d780?w=400&q=80",
-        "deskripsi": "Proses: Natural. Notes: Citrus, Clean Finish."
+        "deskripsi": "Proses: Natural. Notes: Citrus, Clean Finish.",
+        "varietas": "Arabica"
     },
     {
         "id": "KOP-003",
@@ -36,7 +38,8 @@
         "harga": 145000,
         "stok": 12,
         "urlGambar": "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=400&q=80",
-        "deskripsi": "Proses: Semi-Wash. Notes: Spicy, Full Body."
+        "deskripsi": "Proses: Semi-Wash. Notes: Spicy, Full Body.",
+        "varietas": "Arabica"
     },
     {
         "id": "KOP-004",
@@ -49,7 +52,8 @@
         "harga": 115000,
         "stok": 18,
         "urlGambar": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80",
-        "deskripsi": "Proses: Wash. Notes: Nutty, Caramel."
+        "deskripsi": "Proses: Wash. Notes: Nutty, Caramel.",
+        "varietas": "Arabica"
     },
     {
         "id": "KOP-005",
@@ -62,7 +66,8 @@
         "harga": 155000,
         "stok": 10,
         "urlGambar": "https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=400&q=80",
-        "deskripsi": "Proses: Honey. Notes: Sweet Honey, Floral."
+        "deskripsi": "Proses: Honey. Notes: Sweet Honey, Floral.",
+        "varietas": "Arabica"
     },
     {
         "id": "KOP-006",
@@ -75,7 +80,8 @@
         "harga": 95000,
         "stok": 25,
         "urlGambar": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&q=80",
-        "deskripsi": "Proses: Natural. Notes: Chocolate, Bold Body."
+        "deskripsi": "Proses: Natural. Notes: Chocolate, Bold Body.",
+        "varietas": "Robusta"
     },
     {
         "id": "KOP-007",
@@ -88,7 +94,8 @@
         "harga": 85000,
         "stok": 30,
         "urlGambar": "https://images.unsplash.com/photo-1506372023823-741c83b836fe?w=400&q=80",
-        "deskripsi": "Proses: Dry. Notes: Bitter-sweet, Tobacco."
+        "deskripsi": "Proses: Dry. Notes: Bitter-sweet, Tobacco.",
+        "varietas": "Robusta"
     },
     {
         "id": "KOP-008",
@@ -101,7 +108,8 @@
         "harga": 160000,
         "stok": 8,
         "urlGambar": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=400&q=80",
-        "deskripsi": "Proses: Natural. Notes: Jackfruit, Woody."
+        "deskripsi": "Proses: Natural. Notes: Jackfruit, Woody.",
+        "varietas": "Liberica"
     },
     {
         "id": "ALT-001",
@@ -113,8 +121,9 @@
         "beratKapasitas": "40g",
         "harga": 450000,
         "stok": 5,
-        "urlGambar": "https://images.unsplash.com/photo-1544191630-c67b2605f886?w=400&q=80",
-        "deskripsi": "Gilingan tangan presisi."
+        "urlGambar": "https://images.unsplash.com/photo-1748895177768-b4a54b9c2954?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "deskripsi": "Gilingan tangan presisi.",
+        "varietas": "N/A"
     },
     {
         "id": "ALT-002",
@@ -127,7 +136,8 @@
         "harga": 185000,
         "stok": 12,
         "urlGambar": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=400&q=80",
-        "deskripsi": "Dripper keramik handmade."
+        "deskripsi": "Dripper keramik handmade.",
+        "varietas": "N/A"
     },
     {
         "id": "ALT-003",
@@ -140,7 +150,8 @@
         "harga": 350000,
         "stok": 7,
         "urlGambar": "https://images.unsplash.com/photo-1579705745811-a32be7cd107f?w=400&q=80",
-        "deskripsi": "Teko leher angsa klasik."
+        "deskripsi": "Teko leher angsa klasik.",
+        "varietas": "N/A"
     },
     {
         "id": "ALT-004",
@@ -153,7 +164,8 @@
         "harga": 225000,
         "stok": 10,
         "urlGambar": "https://images.unsplash.com/photo-1620023471415-4d76202165b4?w=400&q=80",
-        "deskripsi": "Alat seduh aksen kayu."
+        "deskripsi": "Alat seduh aksen kayu.",
+        "varietas": "N/A"
     },
     {
         "id": "ALT-005",
@@ -166,7 +178,8 @@
         "harga": 75000,
         "stok": 15,
         "urlGambar": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400&q=80",
-        "deskripsi": "Termometer jarum mekanis."
+        "deskripsi": "Termometer jarum mekanis.",
+        "varietas": "N/A"
     },
     {
         "id": "ALT-006",
@@ -179,7 +192,8 @@
         "harga": 285000,
         "stok": 9,
         "urlGambar": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400&q=80",
-        "deskripsi": "Timbangan presisi."
+        "deskripsi": "Timbangan presisi.",
+        "varietas": "N/A"
     },
     {
         "id": "ESS-001",
@@ -192,7 +206,8 @@
         "harga": 45000,
         "stok": 40,
         "urlGambar": "https://images.unsplash.com/photo-1544191630-c67b2605f886?w=400&q=80",
-        "deskripsi": "Kertas filter alami."
+        "deskripsi": "Kertas filter alami.",
+        "varietas": "N/A"
     },
     {
         "id": "ESS-002",
@@ -205,7 +220,8 @@
         "harga": 35000,
         "stok": 20,
         "urlGambar": "https://images.unsplash.com/photo-1589733901241-5e391859bb14?w=400&q=80",
-        "deskripsi": "Pemanis alami."
+        "deskripsi": "Pemanis alami.",
+        "varietas": "N/A"
     },
     {
         "id": "ESS-003",
@@ -218,7 +234,8 @@
         "harga": 55000,
         "stok": 15,
         "urlGambar": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&q=80",
-        "deskripsi": "Kuas pembersih grinder."
+        "deskripsi": "Kuas pembersih grinder.",
+        "varietas": "N/A"
     },
     {
         "id": "MER-001",
@@ -231,7 +248,8 @@
         "harga": 75000,
         "stok": 50,
         "urlGambar": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80",
-        "deskripsi": "Poster edukasi kopi."
+        "deskripsi": "Poster edukasi kopi.",
+        "varietas": "N/A"
     },
     {
         "id": "MER-002",
@@ -244,7 +262,8 @@
         "harga": 85000,
         "stok": 15,
         "urlGambar": "https://images.unsplash.com/photo-1517842645767-c639042777db?w=400&q=80",
-        "deskripsi": "Catatan harian seduh."
+        "deskripsi": "Catatan harian seduh.",
+        "varietas": "N/A"
     },
     {
         "id": "MER-003",
@@ -257,7 +276,8 @@
         "harga": 65000,
         "stok": 30,
         "urlGambar": "https://images.unsplash.com/photo-1544816153-199d88f656ff?w=400&q=80",
-        "deskripsi": "Tas kanvas minimalis."
+        "deskripsi": "Tas kanvas minimalis.",
+        "varietas": "N/A"
     },
     {
         "id": "MER-004",
@@ -270,6 +290,8 @@
         "harga": 25000,
         "stok": 100,
         "urlGambar": "https://images.unsplash.com/photo-1589987607627-616cab5c2222?w=400&q=80",
-        "deskripsi": "Koleksi stempel kopi."
+        "deskripsi": "Koleksi stempel kopi.",
+        "varietas": "N/A"
     }
 ]
+

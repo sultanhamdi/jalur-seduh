@@ -4,26 +4,60 @@
 <head>
   <meta charset="UTF-8">
   <title>Detail Produk</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>Jalur Seduh</h1>
-  <hr>
+  <div class="menu">
+    <a href="index.html"><img src="img/logo.jpeg" alt="Logo" class="nav-icon-img"></a>
+
+    <div class="search-bar">
+      <select>
+        <option>Semua</option>
+        <option>Biji Kopi</option>
+        <option>Instrumen Seduh</option>
+        <option>Perawatan</option>
+        <option>Konsumsi</option>
+        <option>Literasi</option>
+        <option>Atribut</option>
+      </select>
+      <input type="text" placeholder="Cari di Jalur Seduh...">
+      <button type="button"><img src="img/search.png" alt="Search" class="nav-icon-img"></button>
+    </div>
+
+    <a href="troli.html" class="cart"><img src="img/cart.png" alt="Cart" class="nav-icon-img"> <span id="cart-count">0</span></a>
+  </div>
 
   <div class="content">
 
     <div id="detail-produk">
 
     </div>
-
-    <br><br>
-    <a href="index.html">Home</a>
   </div>
 
   <div class="footer">
     <hr>
-    <p>&copy;2026 JalurSeduh.com - Semua produk berkaitan dengan kopi.</p>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Jalur Seduh</h4>
+        <a href="#">Tentang Jalur Seduh</a>
+        <a href="#">Hak Kekayaan Intelektual</a>
+      </div>
+      <div class="footer-column">
+        <h4>Bantuan</h4>
+        <a href="#">Customer Service</a>
+        <a href="#">Syarat dan Ketentuan</a>
+        <a href="#">Kebijakan Privasi</a>
+      </div>
+      <div class="footer-column">
+        <h4>Ikuti Kami</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+    <p class="copyright">&copy;2026 JalurSeduh.com - Semua produk berkaitan dengan kopi.</p>
   </div>
 
   <script src="data/data.js"></script>
